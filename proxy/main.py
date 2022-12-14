@@ -3,6 +3,7 @@ from fastapi import FastAPI
 import requests
 
 app = FastAPI()
+# URL de servidor para autenticacion y clave respectivamente
 auth = "http://127.0.0.1:8001"
 keyServer = "http://127.0.0.1:8002"
 
